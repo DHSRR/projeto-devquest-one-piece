@@ -20,7 +20,7 @@
         flex-direction: row;
         align-items: flex-end;
         width: 100%;
-        padding: 30px;
+        padding: 80px;
     }
     .botoes .botao img{
         max-width: 60px;
@@ -29,11 +29,11 @@
 
 @media (max-width: 425px){
     main .personagem .imagem{
-        height: auto;
+        height: 85%;
     }
     .conteudo .logo{
-        width: 170px;
-        height: 75%;
+        width: 150px;
+        height: 65%;
     }
     .conteudo{
         top: -30%;
@@ -41,8 +41,37 @@
     .conteudo .nome-personagem{
         padding: 20px;
         top: -20%;
+        font-weight: 10px;
+    }
+    .botoes{
+        padding: 65px;
     }
     .botoes .botao img{
-        max-width: 50px;
+        max-width: 60px;
+    }
+} 
+
+@media (max-width: 380px){
+    main .personagem .imagem{
+        width: 100%;
+        height: 50%;
+    }
+    .conteudo .logo{
+        width: 150px;
+        height: 65%;
+    }
+    .conteudo{
+        top: -30%;
+    }
+    .conteudo .nome-personagem{
+        padding: 20px;
+        top: -20%;
+        font-size: 12px;
+    }
+    .botoes{
+        padding: 65px;
+    }
+    .botoes .botao img{
+        max-width: 45px;
     }
 } 
