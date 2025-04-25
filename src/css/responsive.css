@@ -27,6 +27,15 @@
     }
 }
 
+@media (max-width: 526px){
+    .botoes{
+        padding: 65px;
+    }
+    .botoes .botao img{
+        max-width: 60px;
+    }
+}
+
 @media (max-width: 425px){
     main .personagem .imagem{
         height: 85%;
